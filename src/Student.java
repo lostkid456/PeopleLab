@@ -6,7 +6,7 @@ public class Student extends Person {
     private int tardies;
 
     //constructor
-    public Student(String firstName,String familyName, Double GPA, int absences, int tardies)
+    public Student(String firstName,String familyName, double GPA, int absences, int tardies)
     {
         super(firstName,familyName);
         this.GPA = GPA;
@@ -21,18 +21,42 @@ public class Student extends Person {
         return GPA;
     }
 
+    public void setGPA(double GPA)
+    {
+        this.GPA = GPA;
+    }
+
+
+
+
     public int getAbsences()
     {
         return absences;
     }
+
+    public void setAbsences(int absences)
+    {
+        this.absences = absences;
+    }
+
+
+
 
     public int getTardies()
     {
         return tardies;
     }
 
+    public void setTardies(int tardies)
+    {
+        this.tardies = tardies;
+    }
+
+
+
+
     public String toString()
     {
-        return this.getFamilyName() + ", " + this.getFirstName();
+        return this.getFamilyName() + ", " + this.getFirstName()+" GPA:"+GPA+" Absences:"+absences+" Tardies:"+tardies;
     }
 }
