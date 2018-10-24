@@ -9,7 +9,10 @@ public class Classroom
         this.teacher=teacher;
     }
 
-    public String getSubject();
+    public String getSubject()
+    {
+        return getSubject();
+    }
     public double classAverage()
     {
         int x=0;
@@ -19,7 +22,10 @@ public class Classroom
         }
         return x/students.length;
     }
-    public String printClass();
+    public String printClass()
+    {
+        return printClass();
+    }
 
     public String toString()
     {

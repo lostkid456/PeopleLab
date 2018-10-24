@@ -6,19 +6,23 @@ public class Person {
         this.familyName = familyName;
     }
 
-    public String getFirstName() {
+    public String getFirstName()
+    {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName(String firstName)
+    {
         this.firstName = firstName;
     }
 
-    public String getFamilyName() {
+    public String getFamilyName()
+    {
         return familyName;
     }
 
-    public void setFamilyName(String familyName) {
+    public void setFamilyName(String familyName)
+    {
         this.familyName = familyName;
     }
 
