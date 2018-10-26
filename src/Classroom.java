@@ -13,14 +13,14 @@ public class Classroom
     {
         return getSubject();
     }
-    public double classAverage()
+    public  String classAverage()
     {
         double x=0;
         for(int i=0;i<students.length;i++)
         {
             x+=students[i].getGPA();
         }
-        return x/students.length;
+        return "Class GPA:"+x/students.length;
     }
     public String printClass()
     {
