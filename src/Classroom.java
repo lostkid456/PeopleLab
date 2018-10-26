@@ -15,7 +15,7 @@ public class Classroom
     }
     public double classAverage()
     {
-        int x=0;
+        double x=0;
         for(int i=0;i<students.length;i++)
         {
             x+=students[i].getGPA();
@@ -29,7 +29,7 @@ public class Classroom
 
     public String toString()
     {
-        return teacher+","+students;
+        return teacher+","+classAverage();
     }
 
 }

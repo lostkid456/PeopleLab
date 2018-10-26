@@ -7,6 +7,10 @@ public class Runner
         Teacher teacher= new Teacher("Nathan","Levin","Mr","Computer Science");
         Student[] students={student1,student2};
         Classroom classroom1= new Classroom(teacher,students);
+        System.out.println(classroom1+teacher.getSubject());
+        for(int i=0;i<students.length;i++) {
+            System.out.println(students[i]);
+        }
     }
 
 }

@@ -8,7 +8,10 @@ public class Teacher extends Person{
         this.Subject = Subject;
         this.Title = Title;
     }
-    public String getSubject() { return(Subject); }
+    public String getSubject()
+    {
+        return(Subject);
+    }
     public String toString() {
        // int i = (int)(Math.random() * 4 + 1);
         return(Title + ". " + this.getFamilyName());
